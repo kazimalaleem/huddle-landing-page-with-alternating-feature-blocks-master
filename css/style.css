@@ -1,0 +1,618 @@
+@import url(https://fonts.google.com/specimen/Poppins);
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.huddle {
+    background-color: white;
+}
+
+.huddle-center {
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.huddle-page {
+    display: flex;
+    background-image: url(../images/bg-hero-mobile.svg);
+    background-color: hsl(193, 100%, 96%);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+
+.huddle-logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.huddle-logo img {
+    width: 96px;
+    height: 20px;
+}
+
+.huddle-logo button {
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+    border: none;
+    background: white;
+    font-weight: bold;
+    box-shadow: 1px 1px 11px -2.1px #afadad;
+    cursor: pointer;
+}
+
+.huddle-content {
+    padding: 30px;
+    text-align: center;
+}
+
+.huddle-content h1 {
+    padding-bottom: 20px;
+    padding-top: 40px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.huddle-content p {
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-size: 19px;
+    line-height: 27px;
+}
+
+.huddle-content button {
+    padding: 10px 50px 10px 50px;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 26px;
+    box-shadow: 0px 3px 5px -1.3px hsla(322, 100%, 66%, 0.822);
+    margin-bottom: 40px;
+
+}
+
+.huddle-content button:hover {
+    box-shadow: 0px 3px 5px -1.3px hsla(322, 100%, 66%, 0.623);
+    cursor: pointer;
+}
+
+.banner img {
+    width: 265px;
+    height: auto;
+}
+
+.huddle-alternating {
+    margin: 20px;
+}
+
+.huddle-alternating .banner img {
+    width: 215px;
+}
+
+.huddle-alternating .box {
+    box-shadow: 0px 0px 9px -5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.huddle-alternating .card {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.huddle-alternating .card h2 {
+    font-size: 19px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: hsl(192, 100%, 9%);
+}
+
+.huddle-alternating .card p {
+    font-size: 15px;
+    color: hsl(208, 11%, 55%);
+    line-height: 21px;
+    padding-bottom: 40px;
+}
+
+.huddle-alternating .flap {
+    margin-bottom: 200px;
+}
+
+.huddle-master {
+    box-shadow: 0px 0px 9px -5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    top: 360%;
+    background: white;
+}
+
+.huddle-git {
+    background: none;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.huddle-git h2 {
+    font-size: 16px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.huddle-git button {
+    padding: 10px 50px 10px 50px;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 26px;
+    box-shadow: 0px 3px 5px -1.3px hsla(322, 100%, 66%, 0.822);
+    margin-bottom: 40px;
+}
+
+.huddle-git button:hover {
+    box-shadow: 0px 3px 5px -1.3px hsla(322, 100%, 66%, 0.623);
+    cursor: pointer;
+}
+
+.huddle-actment {
+    background-color: hsl(192, 100%, 9%);
+    color: #fff;
+}
+
+.huddle-actment img {
+    width: 200px;
+    color: white;
+    margin-top: 74px;
+}
+
+.huddle-block {
+    padding: 20px;
+
+}
+
+.huddle-footer {
+    padding-bottom: 30px;
+}
+
+.huddle-footer p {
+    font-size: 15px;
+    line-height: 22px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.huddle-footer p svg {
+    margin-right: 10px;
+}
+
+.huddle-with ul {
+    list-style: none;
+    cursor: pointer;
+}
+
+.huddle-with ul li {
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.huddle-landing ul {
+    list-style: none;
+    cursor: pointer;
+}
+
+.huddle-landing ul li {
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.huddle-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.huddle-icon i {
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.huddle-icon i:hover {
+    cursor: pointer;
+    color: hsl(322, 100%, 66%);
+}
+
+@media (min-width:342px) {
+    .huddle-master {
+        box-shadow: 0px 0px 9px -5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+        position: absolute;
+        top: 360%;
+        background: white;
+    }
+}
+
+@media (min-width:370px) {
+    .huddle-master {
+        box-shadow: 0px 0px 9px -5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+        position: absolute;
+        top: 350%;
+        background: white;
+    }
+}
+
+@media (min-width:476px) {
+    .huddle-master {
+        box-shadow: 0px 0px 9px -5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+        position: absolute;
+        top: 332%;
+        background: white;
+    }
+}
+
+@media (min-width:632px) {
+    .huddle-master {
+        box-shadow: 0px 0px 9px -5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+        position: absolute;
+        top: 313%;
+        background: white;
+        left: 161px;
+
+    }
+}
+
+@media (min-width:778px) {
+    .huddle-master {
+        box-shadow: 0px 0px 9px -5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+        position: absolute;
+        top: 311%;
+        background: white;
+        left: 161px;
+    }
+}
+
+@media (min-width:1196px) {
+    .huddle-master {
+        box-shadow: 0px 0px 9px -5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+        position: absolute;
+        top: 292%;
+        background: white;
+        left: 415px;
+    }
+}
+
+@media (min-width:1326px) {
+    .huddle-master {
+        box-shadow: 0px 0px 9px -5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+        position: absolute;
+        top: 294%;
+        background: white;
+        left: 415px;
+    }
+}
+
+@media (min-width:1440px) {
+    .huddle-master {
+        box-shadow: 0px 0px 9px -5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 29px;
+        border-radius: 10px;
+        text-align: center;
+        position: absolute;
+        top: 279%;
+        background: white;
+        left: 528px;
+    }
+
+    .huddle-git h2 {
+        font-size: 25px;
+        padding-bottom: 20px;
+        font-weight: bold;
+    }
+
+    .huddle-git button {
+        padding: 15px 77px 15px 77px;
+        background-color: hsl(322, 100%, 66%);
+        border: none;
+        color: white;
+        font-weight: bold;
+        border-radius: 26px;
+        box-shadow: 0px 3px 5px -1.3px hsla(322, 100%, 66%, 0.822);
+        margin-bottom: 31px;
+    }
+    .huddle-content button {
+        padding: 15px 77px 15px 77px;
+        margin-right: 581px;
+        margin-top: 43px;
+    }
+
+    .huddle-logo {
+        display: flex;
+        justify-content: space-between;
+        padding: 32px;
+    }
+
+    .huddle-logo img {
+        width: 196px;
+        height: 38px;
+    }
+
+    .huddle-content button {
+        padding: 12px 35px 15px 27px;
+        margin-right: 607px;
+        margin-top: 45px;
+    }
+
+    .huddle-content {
+        padding: 30px;
+        text-align: center;
+        display: flex;
+    }
+
+    .banner img {
+        width: 530px;
+        height: auto;
+    }
+
+    .huddle-content h1 {
+        font-size: 33px;
+        margin-right: 186px;
+    }
+
+    .huddle-content p {
+        padding-bottom: 20px;
+        padding-top: 10px;
+        font-size: 19px;
+        line-height: 27px;
+        margin-right: 223px;
+        text-align: initial;
+    }
+
+    .huddle-alternating .card {
+        flex-direction: inherit;
+        display: flex;
+    }
+
+    .huddle-alternating .banner img {
+        width: 450px;
+    }
+
+    .huddle-feature {
+        margin: 50px;
+    }
+
+    .huddle-alternating .card h2 {
+        font-size: 30px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        color: hsl(192, 100%, 9%);
+        text-align: initial;
+    }
+
+    .huddle-alternating .card p {
+        font-size: 21px;
+        line-height: 35px;
+        padding-bottom: 40px;
+        text-align: initial;
+    }
+
+    .huddle-alternating .grider {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .huddle-alternating .griend {
+        display: flex;
+        text-align: right;
+        flex-direction: column;
+        margin-left: 300px;
+    }
+    .huddle-block {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(4, 352px);
+    }
+    .huddle-with{
+        margin-left: 174px;
+    }
+    .huddle-landing{
+        margin-left: 125px;
+    }
+    .huddle-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 117px;
+    }
+}
+@media (min-width:1366px) {
+    .huddle-master {
+        box-shadow: 0px 0px 9px -5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 29px;
+        border-radius: 10px;
+        text-align: center;
+        position: absolute;
+        top: 270%;
+        background: white;
+        left: 468px;
+    }
+
+    .huddle-git h2 {
+        font-size: 25px;
+        padding-bottom: 20px;
+        font-weight: bold;
+    }
+
+    .huddle-git button {
+        padding: 15px 77px 15px 77px;
+        background-color: hsl(322, 100%, 66%);
+        border: none;
+        color: white;
+        font-weight: bold;
+        border-radius: 26px;
+        box-shadow: 0px 3px 5px -1.3px hsla(322, 100%, 66%, 0.822);
+        margin-bottom: 31px;
+    }
+    .huddle-content button {
+        padding: 15px 77px 15px 77px;
+        margin-right: 581px;
+        margin-top: 43px;
+    }
+
+    .huddle-logo {
+        display: flex;
+        justify-content: space-between;
+        padding: 32px;
+    }
+
+    .huddle-logo img {
+        width: 196px;
+        height: 38px;
+    }
+
+    .huddle-content button {
+        padding: 12px 35px 15px 27px;
+        margin-right: 565px;
+        margin-top: 45px;
+    }
+
+    .huddle-content {
+        padding: 30px;
+        text-align: center;
+        display: flex;
+    }
+
+    .banner img {
+        width: 530px;
+        height: auto;
+    }
+
+    .huddle-content h1 {
+        font-size: 33px;
+        margin-right: 186px;
+    }
+
+    .huddle-content p {
+        padding-bottom: 20px;
+        padding-top: 10px;
+        font-size: 19px;
+        line-height: 27px;
+        margin-right: 223px;
+        text-align: initial;
+    }
+
+    .huddle-alternating .card {
+        flex-direction: inherit;
+        display: flex;
+    }
+
+    .huddle-alternating .banner img {
+        width: 450px;
+    }
+
+    .huddle-feature {
+        margin: 50px;
+    }
+
+    .huddle-alternating .card h2 {
+        font-size: 30px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        color: hsl(192, 100%, 9%);
+        text-align: initial;
+    }
+
+    .huddle-alternating .card p {
+        font-size: 21px;
+        line-height: 35px;
+        padding-bottom: 40px;
+        text-align: initial;
+    }
+
+    .huddle-alternating .grider {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .huddle-alternating .griend {
+        display: flex;
+        text-align: right;
+        flex-direction: column;
+        margin-left: 300px;
+    }
+    .huddle-block {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(4, 327px);
+    }
+    .huddle-with{
+        margin-left: 174px;
+    }
+    .huddle-landing{
+        margin-left: 125px;
+    }
+    .huddle-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 117px;
+    }
+}
